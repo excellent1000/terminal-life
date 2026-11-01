@@ -1,0 +1,23 @@
+{
+  "name": "terminal-life",
+  "version": "0.1.0",
+  "description": "Conway's Game of Life in the terminal — zero dependencies, toroidal grid, seedable PRNG",
+  "type": "module",
+  "bin": {
+    "term-life": "bin/life.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "conway",
+    "game-of-life",
+    "cellular-automata",
+    "cli",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
